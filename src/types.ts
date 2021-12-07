@@ -5,13 +5,13 @@ export interface IChainData {
   chain: string;
   network: string;
   networkId: number;
+  rpc: string[];
+  faucets: string[];
+  explorers: { name: string; url: string; standard: string; icon?: string }[];
+  infoURL: string;
   nativeCurrency?: {
     name?: string;
     symbol?: string;
     decimals?: number;
   };
-  rpc: string[];
-  faucets: string[];
-  explorers: { name: string; url: string; standard: string; icon?: string }[];
-  infoURL: string;
 }
