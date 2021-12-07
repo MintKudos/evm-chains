@@ -5,10 +5,10 @@ export interface IChainData {
   chain: string;
   network: string;
   networkId: number;
-  nativeCurrency: {
-    name: string;
-    symbol: string;
-    decimals: number;
+  nativeCurrency?: {
+    name?: string;
+    symbol?: string;
+    decimals?: number;
   };
   rpc: string[];
   faucets: string[];
