@@ -3,11 +3,11 @@ import { IChainData } from './types';
 const manualChains = [
   {
     name: 'POAP',
-    chainId: -15,
+    chainId: 201,
     shortName: 'POAP',
     chain: 'POAP',
     network: 'POAP',
-    networkId: -15,
+    networkId: 201,
     rpc: [],
     faucets: [],
     explorers: [],
